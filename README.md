@@ -1,2 +1,3 @@
 # typescript-playground
-Doing the W3 School tutorial
+
+Doing the W3 School tutorial.
