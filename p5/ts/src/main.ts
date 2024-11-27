@@ -9,7 +9,7 @@ function setup() {
   createCanvas(600, 400);
   clean();
 
-  buttonPlus = createButton('P');
+  let buttonPlus = createButton('P');
   buttonPlus.position(10, 410);
   buttonPlus.mousePressed(() => {
     if (currentWeight >= maxWeight) {
@@ -20,7 +20,7 @@ function setup() {
     }
   })
 
-  buttonMinus = createButton('M');
+  let buttonMinus = createButton('M');
   buttonMinus.position(40, 410);
   buttonMinus.mousePressed(() => {
     if (currentWeight <= minWeight) {
@@ -31,27 +31,27 @@ function setup() {
     }
   })
 
-  buttonClear = createButton('Clear');
+  let buttonClear = createButton('Clear');
   buttonClear.position(80, 410);
   buttonClear.mousePressed(() => {
     clean();
   })
 
-  buttonRed = createButton('R');
+  let buttonRed = createButton('R');
   buttonRed.position(140, 410);
   buttonRed.mousePressed(() => {
     currentColor = 'red';
   })
 
-  buttonRed = createButton('G');
-  buttonRed.position(170, 410);
-  buttonRed.mousePressed(() => {
+  let buttonGreen = createButton('G');
+  buttonGreen.position(170, 410);
+  buttonGreen.mousePressed(() => {
     currentColor = 'green';
   })
 
-  buttonRed = createButton('B');
-  buttonRed.position(200, 410);
-  buttonRed.mousePressed(() => {
+  let buttonBlue = createButton('B');
+  buttonBlue.position(200, 410);
+  buttonBlue.mousePressed(() => {
     currentColor = 'blue';
   })
 }
