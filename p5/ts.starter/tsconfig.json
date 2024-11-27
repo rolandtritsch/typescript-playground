@@ -2,10 +2,10 @@
   "compilerOptions": {
     "module": "none",
     "noImplicitAny": true,
-    "outFile": "dist/main.js",
+    "outFile": "./build/build.js",
     "preserveConstEnums": true,
     "removeComments": true,
-    "rootDir": "./src",
+    "rootDir": "./sketch/",
     "sourceMap": true,
     "target": "es5",
     "moduleResolution": "node"
